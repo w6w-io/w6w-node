@@ -1,3 +1,15 @@
+> **This repository has moved.** `@w6w/sdk` is now developed in
+> **[w6w-io/w6w-wrappers](https://github.com/w6w-io/w6w-wrappers)**, under `node/`,
+> together with the other w6w client wrappers and the shared surface contract they
+> all implement.
+>
+> Nothing was lost in the move: this repo's full history came across with
+> `git subtree`, **commit SHAs unchanged**, so any link to a commit here resolves
+> to the same object there.
+>
+> This repo is archived and read-only. Published `@w6w/sdk` versions up to `0.1.1`
+> point their `repository` field here; `0.2.0` onward points at the new home.
+
 # @w6w/sdk
 
 The TypeScript client for the [w6w](https://w6w.dev) HTTP API.
