@@ -3,9 +3,10 @@
 > together with the other w6w client wrappers and the shared surface contract they
 > all implement.
 >
-> Nothing was lost in the move: this repo's full history came across with
-> `git subtree`, **commit SHAs unchanged**, so any link to a commit here resolves
-> to the same object there.
+> The full history came across, commit for commit. The **hashes differ**: the
+> wrappers repo was published with its history rewritten to remove references to
+> a closed repository, so a commit here and its counterpart there have the same
+> author, date and message but not the same SHA. Match them by message.
 >
 > This repo is archived and read-only. Published `@w6w/sdk` versions up to `0.1.1`
 > point their `repository` field here; `0.2.0` onward points at the new home.
